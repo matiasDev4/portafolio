@@ -1,5 +1,5 @@
-import { Body } from "./body"
-import { Header } from "./Header"
+import { Body } from "../components/Body.jsx"
+import { Header } from "../components/Header.jsx"
 
 export const  App = () => {
 
