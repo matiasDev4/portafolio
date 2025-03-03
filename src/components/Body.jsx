@@ -6,7 +6,7 @@ export const Body = () => {
         "name": "Proyecto 'Patitas'",
         "description": "Una aplicacion web para la adopcion de mascotas, con un panel administrativo y formulario de adopcion",
         "lenguajes": ["react.png", "tailwindcss.svg", "fastAPI.svg", "python.svg"],
-        "img": "/src/assets/proyectos/patitas.png",
+        "img": "./src/assets/proyectos/patitas.png",
         "link": "https://www.google.com",
         "active": true
     },
@@ -14,7 +14,7 @@ export const Body = () => {
         "name": "Proyecto 'Lolinails'",
         "description": "Aplicacion web para venta de cursos / reservacion de turnos y panel de administracion moderno - actalemente en desarrollo",
         "lenguajes": ["react.png", "tailwindcss.svg", "fastAPI.svg", "python.svg"],
-        "img": "/src/assets/proyectos/nails.png",
+        "img": "./src/assets/proyectos/nails.png",
         "link": "",
         "active": false
     },
@@ -22,7 +22,7 @@ export const Body = () => {
         "name": "Proyecto 'KVMYM'",
         "description": "Apliacion de escritorio para la gestion de facturas tipo A, el cual guarda los datos en una base de datos local para tener un segumiento de las facturas",
         "lenguajes": ["python.svg"],
-        "img": "/src/assets/proyectos/kiosco.jpg",
+        "img": "./src/assets/proyectos/kiosco.jpg",
         "link": "",
         "active": false
     }]
@@ -41,7 +41,7 @@ export const Body = () => {
                     <div className="flex flex-col items-center p-2 justify-between gap-y-5">
                         <p className="px-2 text-center lg:text-[20px]">{index.description}</p>
                         <div className="[&>img]:w-6 flex flex-row gap-5 my-2 ">
-                            {index.lenguajes.map(lenguaje => <img src={`/src/assets/lenguajes/${lenguaje}`} alt=""/>)}
+                            {index.lenguajes.map(lenguaje => <img src={`./src/assets/lenguajes/${lenguaje}`} alt=""/>)}
                         </div>
                         <div className="my-2">
                             <a href="https://c19-57-n-python-react.vercel.app/" target="_blank" rel="noreferrer"
