@@ -3,35 +3,35 @@ import { RiExternalLinkFill } from "react-icons/ri";
 
 export const Body = () => {
     const cards = [{
-        "name": "Proyecto 'Patitas'",
+        "name": "Adopcion de mascotas - Patitas",
         "description": "Una aplicacion web para la adopcion de mascotas, con un panel administrativo y formulario de adopcion",
         "lenguajes": ["react.png", "tailwindcss.svg", "fastAPI.svg", "python.svg"],
-        "img": "proyectos/patitas.png",
+        "img": "proyectos/patitas.PNG",
         "link": "https://c19-57-n-python-react.vercel.app/",
         "active": true
     },
     {
-        "name": "Proyecto 'Lolinails'",
+        "name": "E-commerce - Lolinails",
         "description": "Aplicacion web para venta de cursos / reservacion de turnos y panel de administracion moderno - actalemente en desarrollo",
         "lenguajes": ["react.png", "tailwindcss.svg", "fastAPI.svg", "python.svg"],
-        "img": "proyectos/nails.png",
+        "img": "proyectos/nails.PNG",
         "link": "",
         "active": false
     },
     {
-        "name": "Proyecto 'KVMYM'",
+        "name": "Gestor de facturas - KVMYM",
         "description": "Apliacion de escritorio para la gestion de facturas tipo A, el cual guarda los datos en una base de datos local para tener un segumiento de las facturas",
         "lenguajes": ["python.svg"],
-        "img": "proyectos/kiosco.jpg",
+        "img": "proyectos/kiosco.JPG",
         "link": "",
         "active": false
     },
     {
-        "name": "Menu online",
+        "name": "Menu online - demo",
         "description": "Un menu online atractivo y a medida para cada lugar, dandole un poco mas de agilidad al cliente a la hora de elegir su comida/bebida. Teniendo la opcion de filtro por cantegorias y una barra de busqueda",
-        "lenguajes": ["react.png, tailwindcss.svg"],
+        "lenguajes": ["react.png", "tailwindcss.svg"],
         "img": "proyectos/menucard.png",
-        "link": "menuonlinegn.netlify.app",
+        "link": "https://menuonlinegn.netlify.app",
         "active": true
     }]
     return (
