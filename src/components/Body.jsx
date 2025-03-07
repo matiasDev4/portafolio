@@ -30,7 +30,7 @@ export const Body = () => {
         "name": "Menu online",
         "description": "Un menu online atractivo y a medida para cada lugar, dandole un poco mas de agilidad al cliente a la hora de elegir su comida/bebida. Tanto para un restorán o bar, tienendo la opcion de filtro por cantegorias y una barra de busqueda",
         "lenguajes": ["react.svg, tailwindcss.svg"],
-        "img": "proyectos/menu.jpg",
+        "img": "proyectos/menucard.jpg",
         "link": "menuonlinegn.netlify.app",
         "active": true
     }]
