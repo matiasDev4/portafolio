@@ -7,7 +7,7 @@ export const Body = () => {
         "description": "Una aplicacion web para la adopcion de mascotas, con un panel administrativo y formulario de adopcion",
         "lenguajes": ["react.png", "tailwindcss.svg", "fastAPI.svg", "python.svg"],
         "img": "proyectos/patitas.png",
-        "link": "https://www.google.com",
+        "link": "https://c19-57-n-python-react.vercel.app/",
         "active": true
     },
     {
@@ -52,7 +52,7 @@ export const Body = () => {
                             {index.lenguajes.map(lenguaje => <img src={`lenguajes/${lenguaje}`} alt=""/>)}
                         </div>
                         <div className="my-2">
-                            <a href="https://c19-57-n-python-react.vercel.app/" target="_blank" rel="noreferrer"
+                            <a href={index.link} target="_blank" rel="noreferrer"
                             className={`flex flex-row items-center gap-x-2
                             text-white py-2 px-5 rounded-[10px] hover:cursor-pointer
                             hover:bg-gray-400/90 transition-all duration-300 ${index.active ? "bg-black" : "hidden"}`}>
