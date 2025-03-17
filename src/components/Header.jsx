@@ -8,8 +8,8 @@ export const Header = () => {
         shadow-[0px_0px_15px_black]">
             <div className="flex gap-1 items-center">
                 <img src="images/logo.jpg" alt="" 
-                className="w-12 rounded-full md:w-12"/>
-                <h1 className="font-mono text-[20px]"> - Matias Alvarez</h1>
+                className="w-10 rounded-full md:w-12"/>
+                <h1 className="font-mono text-[15px] md:text-[20px]"> - Portfolio</h1>
 
             </div>
             <div className="flex flex-row gap-x-5 text-[25px]">
