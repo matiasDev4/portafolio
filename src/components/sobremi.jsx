@@ -1,7 +1,7 @@
 export const Sobremi  = () =>{
     return (
         <>
-            <section className="w-full">
+            <section className="w-full my-[5rem]">
                 <div className="text-white">
                     <div className="text-center my-5">
                         <h2 className="text-2xl font-bold my-1 md:text-4xl">Hola!👋 me llamo</h2> 
@@ -13,8 +13,8 @@ export const Sobremi  = () =>{
                     <p 
                     className="text-md text-center px-2 font-medium md:text-lg"
                     >
-                    Soy un desarrollador full-stack enfocado en poder mejorar mis conocimientos <br /> constantemente, 
-                    aca muestro mis proyectos mas recientes en donde vuelco mis conocmientos frontend y backend
+                    Soy un desarrollador full-stack enfocado en poder mejorar mis habilidades y conocimientos constantemente. <br />
+                    Acá muestro mis proyectos más recientes, en donde aplico todo lo que voy aprendiendo. 👇
                     </p>
                 </div>
 
