@@ -42,8 +42,8 @@ export const Body = () => {
                 hover:scale-[1.02] hover:cursor-pointer hover:shadow-[0px_20px_20px_black] transition-all duration-300"> 
                     <div className="p-2 relative hover:[&>div]">
                         <img src={index.img} alt="" className="rounded-xl" />
-                        <div className="bg-black/20 text-black font-bold h-12 lg:h-14 px-5 py-2
-                        text-[13px] lg:text-[15px] rounded-t-xl my-2 flex items-center">
+                        <div className="bg-black/20 text-black font-bold h-12 lg:h-14 px-2 py-2
+                        text-[15px] lg:text-[15px] rounded-t-xl my-2 flex items-center">
                             <h1>{index.name}</h1>
                         </div>
                     </div>
