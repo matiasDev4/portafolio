@@ -3,7 +3,7 @@ import { RiExternalLinkFill } from "react-icons/ri";
 
 export const Body = () => {
     const cards = [{
-        "name": "💡Patitas - Plataforma de Adopción de Mascotas",
+        "name": "💡 Patitas - Plataforma de Adopción de Mascotas",
         "description": "Una aplicación web para la adopción de mascotas, con un panel administrativo y formulario de adopcion",
         "lenguajes": ["react.png", "tailwindcss.svg", "fastAPI.svg", "python.svg"],
         "img": "proyectos/patitas.PNG",
@@ -43,7 +43,7 @@ export const Body = () => {
                     <div className="p-2 relative hover:[&>div]">
                         <img src={index.img} alt="" className="rounded-xl" />
                         <div className="bg-black/20 text-black font-bold h-12 lg:h-14 px-5 py-2
-                        text-[20px] lg:text-[15px] rounded-t-xl my-2 flex items-center">
+                        text-[13px] lg:text-[15px] rounded-t-xl my-2 flex items-center">
                             <h1>{index.name}</h1>
                         </div>
                     </div>
