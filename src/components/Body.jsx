@@ -25,14 +25,6 @@ export const Body = () => {
         "img": "proyectos/kiosco.JPG",
         "link": "",
         "active": false
-    },
-    {
-        "name": "🍔 Menu online - aplicación demostrativa",
-        "description": "Un menu online atractivo y a medida para cada lugar, Teniendo la opcion de filtro por cantegorias y una barra de busqueda",
-        "lenguajes": ["react.png", "tailwindcss.svg"],
-        "img": "proyectos/menucard.png",
-        "link": "https://menuonlinegn.netlify.app",
-        "active": true
     }]
     return (
         <section className="my-10 grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 2xl:grid-cols-3 gap-x-5 gap-y-5 lg:mx-10 md:mx-16 xl:mx-28 place-items-center">
