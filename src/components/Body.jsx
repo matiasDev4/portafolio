@@ -8,6 +8,7 @@ export const Body = () => {
         "lenguajes": ["React JS", "Tailwind", "FastAPI", "Python"],
         "img": "proyectos/patitas.PNG",
         "link": "https://c19-57-n-python-react.vercel.app/",
+        "link_repo":"https://github.com/matiasDev4/C23-65-WEBAPP",
         "active": true
     },
     {
@@ -15,18 +16,18 @@ export const Body = () => {
         "description": "Una web enfocada en la venta de cursos, con un panel para el administrador.",
         "lenguajes": ["React JS", "Tailwind", "FastAPI", "Python"],
         "img": "proyectos/nails.PNG",
-        "link": "https://github.com/matiasDev4/lolinails-web",
+        "link":"",
+        "link_repo": "https://github.com/matiasDev4/lolinails-web",
         "active": false,
-        "motivo": "offline por temas de hosting. El código está en GitHub."
     },
     {
         "name": "📄 KVMYM - Gestor de facturas ",
         "description": "Apliación de escritorio para la gestion de facturas tipo A, el cual mantiene un suguimiento de impuestos y totales.",
         "lenguajes": ["Python", "Flet"],
         "img": "proyectos/kiosco.JPG",
-        "link": "https://github.com/matiasDev4/gestor_app",
+        "link": "",
+        "link_repo": "https://github.com/matiasDev4/gestor_app",
         "active": false,
-        "motivo":"No disponible para descargar. El codigo esta en GitHub."
         
     }]
     return (
@@ -55,7 +56,6 @@ export const Body = () => {
                                 )}
                             </div>
                         </div>
-                        <p className="text-center text-gray-900">{index.motivo}</p>
                         <div className="my-2 flex flex-row gap-x-4">
                             <a href={index.link} target="_blank" rel="noreferrer"
                             className={`flex flex-row items-center gap-x-2
@@ -64,7 +64,7 @@ export const Body = () => {
                                 {index.active ? "Visitar web" : ""} 
                             <span><RiExternalLinkFill /></span></a>
 
-                            <a href={index.link} target="_blank" rel="noreferrer"
+                            <a href={index.link_repo} target="_blank" rel="noreferrer"
                             className={`flex flex-row items-center gap-x-2
                             text-white py-2 px-5 rounded-[10px] hover:cursor-pointer
                             hover:bg-gray-400/90 transition-all duration-300 bg-black`}>
