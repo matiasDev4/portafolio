@@ -9,7 +9,9 @@ export const  App = () => {
         <>
         <Header />
         <Sobremi />
-        <Body />
+        <div className="flex justify-center">
+            <Body />
+        </div>
         <Footer />
         </>
     )

@@ -32,7 +32,7 @@ export const Body = () => {
     }]
     return (
         <section className="my-10 grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 2xl:grid-cols-3 gap-x-5 gap-y-5 lg:mx-10 md:mx-16 xl:mx-28 place-items-center
-        scroll-smooth">
+        md:max-w-[1200px]">
             {
                 cards.map(index =>
                 <div className="bg-white m-2 h-auto rounded-xl shadow-[0px_0px_20px_black] lg:max-w-[400px]
