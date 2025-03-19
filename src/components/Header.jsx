@@ -3,7 +3,7 @@ import { FaGithub } from "react-icons/fa";
 
 export const Header = () => {
     return (
-        <header 
+        <header id="#top"
         className="bg-transparent text-white w-full h-20 flex items-center justify-between px-5
         shadow-[0px_0px_15px_black] sticky top-0 z-50 backdrop-blur-sm">
             <div className="flex gap-1 items-center">
