@@ -34,7 +34,7 @@ export const Body = () => {
         "name": "💡 E-commerce - Venta de insumos informáticos ",
         "description": "Una pagina web para venta de insumos, con fines practicos y demostrativos.",
         "lenguajes": ["HTML", "CSS", "JavaScript"],
-        "img": "proyectos/prototpio.PNG",
+        "img": "proyectos/prototipo.PNG",
         "link": "https://matiasdev4.github.io",
         "link_repo": "https://github.com/matiasDev4/prototipo",
         "active": true,
