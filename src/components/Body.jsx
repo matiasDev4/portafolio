@@ -35,7 +35,7 @@ export const Body = () => {
         "description": "Una pagina web para venta de insumos, con fines practicos y demostrativos.",
         "lenguajes": ["HTML", "CSS", "JavaScript"],
         "img": "proyectos/prototipo.PNG",
-        "link": "https://matiasdev4.github.io",
+        "link": "https://matiasdev4.github.io/prototipo",
         "link_repo": "https://github.com/matiasDev4/prototipo",
         "active": true,
         
