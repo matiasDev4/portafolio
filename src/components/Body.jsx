@@ -29,6 +29,16 @@ export const Body = () => {
         "link_repo": "https://github.com/matiasDev4/gestor_app",
         "active": false,
         
+    },
+    {
+        "name": "💡 E-commerce - Venta de insumos informáticos ",
+        "description": "Una pagina web para venta de insumos, con fines practicos y demostrativos.",
+        "lenguajes": ["HTML", "CSS", "JavaScript"],
+        "img": "proyectos/prototpio.PNG",
+        "link": "https://matiasdev4.github.io",
+        "link_repo": "https://github.com/matiasDev4/prototipo",
+        "active": true,
+        
     }]
     return (
         <section className="my-10 grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 2xl:grid-cols-3 gap-x-5 gap-y-5 lg:mx-10 md:mx-16 xl:mx-28 place-items-center
