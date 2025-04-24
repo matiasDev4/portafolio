@@ -16,7 +16,7 @@ export const Header = () => {
                 <a href="https://github.com/matiasDev4"
                 className="hover:bg-gray-700/60 p-2 hover:rounded-full transition-all duration-300
                 hover:-translate-y-1"><FaGithub /></a>
-                <a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BQVBTrbRhQqu%2FwwbMyT4u%2FA%3D%3D"
+                <a href="linkedin.com/in/matias-alvarez44"
                 className="hover:bg-gray-700/60 p-2 hover:rounded-full transition-all duration-300
                 hover:-translate-y-1"><FaLinkedin/></a>
             </div>
