@@ -10,7 +10,7 @@ export const Body = () => {
         "link": "https://c19-57-n-python-react.vercel.app/",
         "link_repo":"https://github.com/matiasDev4/C23-65-WEBAPP",
         "active": true,
-        "type": 'app"
+        "type": "app"
     },
     {
         "name": "🛒 Lolinail - Cursos online",
@@ -20,7 +20,7 @@ export const Body = () => {
         "link":"",
         "link_repo": "https://github.com/matiasDev4/lolinails-web",
         "active": false,
-        "type": 'app"
+        "type": "app"
     },
     {
         "name": "📄 KVMYM - Gestor de facturas ",
@@ -30,7 +30,7 @@ export const Body = () => {
         "link": "",
         "link_repo": "https://github.com/matiasDev4/gestor_app",
         "active": false,
-        "type": 'app"
+        "type": "app"
         
     },
     {
@@ -41,7 +41,7 @@ export const Body = () => {
         "link": "https://matiasdev4.github.io/prototipo",
         "link_repo": "https://github.com/matiasDev4/prototipo",
         "active": true,
-        "type": 'app"
+        "type": "app"
         
     },
     {
@@ -52,7 +52,7 @@ export const Body = () => {
         "link": "",
         "link_repo": "https://github.com/matiasDev4/ConvertJPG",
         "active": true,
-        "type": 'app"
+        "type": "app"
         
     },
     {
@@ -63,7 +63,7 @@ export const Body = () => {
         "link": "https://github.com/matiasDev4/ventas_diarias_app/releases/download/1.0.0/ventas.exe",
         "link_repo": "https://github.com/matiasDev4/ventas_diarias_app",
         "active": true,
-        "type": 'app"
+        "type": "app"
         
     }]
     return (
@@ -98,7 +98,7 @@ export const Body = () => {
                             className={`flex flex-row items-center gap-x-2
                             text-white py-2 px-5 rounded-[10px] hover:cursor-pointer
                             hover:bg-gray-400/90 transition-all duration-300 ${index.active ? "bg-black" : "hidden"}`}>
-                                {index.type 'app' ? "Descargar" : "Visitar web"} 
+                                {index.type === 'app' ? "Descargar" : "Visitar web"} 
                             <span><RiExternalLinkFill /></span></a>
 
                             <a href={index.link_repo} target="_blank" rel="noreferrer"
