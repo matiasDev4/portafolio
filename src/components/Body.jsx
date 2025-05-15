@@ -9,7 +9,8 @@ export const Body = () => {
         "img": "proyectos/patitas.PNG",
         "link": "https://c19-57-n-python-react.vercel.app/",
         "link_repo":"https://github.com/matiasDev4/C23-65-WEBAPP",
-        "active": true
+        "active": true,
+        "type": 'app"
     },
     {
         "name": "🛒 Lolinail - Cursos online",
@@ -19,6 +20,7 @@ export const Body = () => {
         "link":"",
         "link_repo": "https://github.com/matiasDev4/lolinails-web",
         "active": false,
+        "type": 'app"
     },
     {
         "name": "📄 KVMYM - Gestor de facturas ",
@@ -28,6 +30,7 @@ export const Body = () => {
         "link": "",
         "link_repo": "https://github.com/matiasDev4/gestor_app",
         "active": false,
+        "type": 'app"
         
     },
     {
@@ -38,6 +41,7 @@ export const Body = () => {
         "link": "https://matiasdev4.github.io/prototipo",
         "link_repo": "https://github.com/matiasDev4/prototipo",
         "active": true,
+        "type": 'app"
         
     },
     {
@@ -48,6 +52,18 @@ export const Body = () => {
         "link": "",
         "link_repo": "https://github.com/matiasDev4/ConvertJPG",
         "active": true,
+        "type": 'app"
+        
+    },
+    {
+        "name": "💡 VentasDiarias - registra tus ventas diarias ",
+        "description": "Registra las ventas diarias de un comercio, suma los totales automaticamente y exporta los datos a un Excel. Mejor persistencia de datos",
+        "lenguajes": ["Flet", "Python"],
+        "img": "proyectos/ventas.png",
+        "link": "https://github.com/matiasDev4/ventas_diarias_app/releases/download/1.0.0/ventas.exe",
+        "link_repo": "https://github.com/matiasDev4/ventas_diarias_app",
+        "active": true,
+        "type": 'app"
         
     }]
     return (
@@ -82,7 +98,7 @@ export const Body = () => {
                             className={`flex flex-row items-center gap-x-2
                             text-white py-2 px-5 rounded-[10px] hover:cursor-pointer
                             hover:bg-gray-400/90 transition-all duration-300 ${index.active ? "bg-black" : "hidden"}`}>
-                                {index.link === '' ? "Visitar web" : ""} 
+                                {index.type 'app' ? "Descargar" : "Visitar web"} 
                             <span><RiExternalLinkFill /></span></a>
 
                             <a href={index.link_repo} target="_blank" rel="noreferrer"
