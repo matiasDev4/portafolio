@@ -57,7 +57,7 @@ export const Body = () => {
     },
     {
         "name": "💡 VentasDiarias - registra tus ventas diarias ",
-        "description": "Registra las ventas diarias de un comercio, suma los totales automaticamente y exporta los datos a un Excel. Mejor persistencia de datos",
+        "description": "Registra las ventas diarias de un comercio, suma los totales automaticamente y exporta los datos a un Excel.",
         "lenguajes": ["Flet", "Python"],
         "img": "proyectos/ventas.png",
         "link": "https://github.com/matiasDev4/ventas_diarias_app/releases/download/1.0.0/ventas.exe",
