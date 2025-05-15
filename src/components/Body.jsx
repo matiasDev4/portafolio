@@ -10,7 +10,7 @@ export const Body = () => {
         "link": "https://c19-57-n-python-react.vercel.app/",
         "link_repo":"https://github.com/matiasDev4/C23-65-WEBAPP",
         "active": true,
-        "type": "app"
+        "type": "web"
     },
     {
         "name": "🛒 Lolinail - Cursos online",
@@ -20,7 +20,7 @@ export const Body = () => {
         "link":"",
         "link_repo": "https://github.com/matiasDev4/lolinails-web",
         "active": false,
-        "type": "app"
+        "type": "web"
     },
     {
         "name": "📄 KVMYM - Gestor de facturas ",
@@ -41,7 +41,7 @@ export const Body = () => {
         "link": "https://matiasdev4.github.io/prototipo",
         "link_repo": "https://github.com/matiasDev4/prototipo",
         "active": true,
-        "type": "app"
+        "type": "web"
         
     },
     {
