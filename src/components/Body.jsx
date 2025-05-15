@@ -47,7 +47,7 @@ export const Body = () => {
         "img": "proyectos/convert.jpg",
         "link": "",
         "link_repo": "https://github.com/matiasDev4/ConvertJPG",
-        "active": true,
+        "active": false,
         
     }]
     return (
