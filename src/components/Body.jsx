@@ -47,7 +47,7 @@ export const Body = () => {
         "img": "proyectos/convert.jpg",
         "link": "",
         "link_repo": "https://github.com/matiasDev4/ConvertJPG",
-        "active": false,
+        "active": true,
         
     }]
     return (
@@ -82,7 +82,7 @@ export const Body = () => {
                             className={`flex flex-row items-center gap-x-2
                             text-white py-2 px-5 rounded-[10px] hover:cursor-pointer
                             hover:bg-gray-400/90 transition-all duration-300 ${index.active ? "bg-black" : "hidden"}`}>
-                                {index.active ? "Visitar web" : ""} 
+                                {index.link === '' ? "Visitar web" : ""} 
                             <span><RiExternalLinkFill /></span></a>
 
                             <a href={index.link_repo} target="_blank" rel="noreferrer"
