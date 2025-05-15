@@ -39,6 +39,16 @@ export const Body = () => {
         "link_repo": "https://github.com/matiasDev4/prototipo",
         "active": true,
         
+    },
+    {
+        "name": "💡 ConvertJPG - convertidor de DICOM a JPG ",
+        "description": "Esta aplicación esta enfocada convertir varios archivos DICOM a JPG de manera simple y rapida",
+        "lenguajes": ["Flet", "Python"],
+        "img": "proyectos/convert.jpg",
+        "link": "",
+        "link_repo": "https://github.com/matiasDev4/ConvertJPG",
+        "active": true,
+        
     }]
     return (
         <section className="my-10 grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 2xl:grid-cols-3 gap-x-5 gap-y-5 lg:mx-10 md:mx-16 xl:mx-28 place-items-center
