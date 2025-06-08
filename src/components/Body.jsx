@@ -65,6 +65,17 @@ export const Body = () => {
         "active": true,
         "type": "app"
         
+    },
+    {
+        "name": "💡 Skateboard - asociación de skate ",
+        "description": "Un sitio pensado para visibilizar el trabajo de la comunidad, sumar socios y hacer crecer el deporte local.",
+        "lenguajes": ["React", "Tailwind"],
+        "img": "proyectos/skate.png",
+        "link": "https://asociacionskate.netlify.app",
+        "link_repo": "https://github.com/matiasDev4/Asociaci-n-skate",
+        "active": true,
+        "type": "web"
+        
     }]
     return (
         <section className="my-10 grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 2xl:grid-cols-3 gap-x-5 gap-y-5 lg:mx-10 md:mx-16 xl:mx-28 place-items-center
