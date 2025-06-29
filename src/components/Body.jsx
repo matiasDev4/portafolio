@@ -33,17 +33,6 @@ export const Body = () => {
         "type": "web"
     },
     {
-        "name": "📄 KVMYM - Gestor de facturas ",
-        "description": "Apliación de escritorio para la gestion de facturas tipo A, el cual mantiene un suguimiento de impuestos y totales.",
-        "lenguajes": ["Python", "Flet"],
-        "img": "proyectos/kiosco.JPG",
-        "link": "",
-        "link_repo": "https://github.com/matiasDev4/gestor_app",
-        "active": false,
-        "type": "app"
-        
-    },
-    {
         "name": "💡 E-commerce - Venta de insumos informáticos ",
         "description": "Una pagina web para venta de insumos, con fines practicos y demostrativos.",
         "lenguajes": ["HTML", "CSS", "JavaScript"],
@@ -52,6 +41,17 @@ export const Body = () => {
         "link_repo": "https://github.com/matiasDev4/prototipo",
         "active": true,
         "type": "web"
+        
+    },
+    {
+        "name": "📄 KVMYM - Gestor de facturas ",
+        "description": "Apliación de escritorio para la gestion de facturas tipo A, el cual mantiene un suguimiento de impuestos y totales.",
+        "lenguajes": ["Python", "Flet"],
+        "img": "proyectos/kiosco.png",
+        "link": "",
+        "link_repo": "https://github.com/matiasDev4/gestor_app",
+        "active": false,
+        "type": "app"
         
     },
     {
