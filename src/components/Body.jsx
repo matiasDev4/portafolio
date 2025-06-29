@@ -94,7 +94,7 @@ export const Body = () => {
                         text-[14px] font-semibold`}>{index.active ? "Online ✔️ " : ""}</span>
                     </div>
                     <div className="flex flex-col items-center p-2 justify-between gap-y-5">
-                        <p className="px-2 text-center lg:text-[18px] text-gray-800">{index.description}</p>
+                        <p className="px-2 text-center text-lg lg:text-[18px] text-gray-800">{index.description}</p>
                         <div className="flex flex-col gap-y-4">
                             <h2 className="font-semibold">Lenguajes que utilize 👇</h2>
                             <div className="grid grid-cols-3 lg:grid-cols-4 gap-2 place-items-center">
