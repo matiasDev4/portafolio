@@ -87,7 +87,7 @@ export const Body = () => {
                     <div className="p-2 relative hover:[&>div]">
                         <img src={index.img} alt="" className="rounded-xl" />
                         <div className="bg-black/20 text-black font-bold h-12 lg:h-14 px-2 py-2
-                        text-[12px] lg:text-[15px] rounded-t-xl my-2 flex items-center">
+                        text-md lg:text-lg rounded-t-xl my-2 flex items-center">
                             <h1>{index.name}</h1>
                         </div>
                         <span className={`absolute top-5 left-4 ${index.active ? "bg-green-500/60" : ""} rounded-lg px-2 py-1
