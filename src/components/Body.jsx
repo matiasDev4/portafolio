@@ -2,7 +2,17 @@ import { RiExternalLinkFill } from "react-icons/ri";
 import { FaGithub } from "react-icons/fa";
 
 export const Body = () => {
-    const cards = [{
+    const cards = [    {
+        "name": "💡 Skateboard - asociación de skate ",
+        "description": "Un sitio pensado para visibilizar el trabajo de la comunidad, sumar socios y hacer crecer el deporte local.",
+        "lenguajes": ["React", "Tailwind"],
+        "img": "proyectos/skate.png",
+        "link": "https://asociacionskate.netlify.app",
+        "link_repo": "https://github.com/matiasDev4/Asociaci-n-skate",
+        "active": true,
+        "type": "web"
+        
+    },{
         "name": "💡 Patitas - Plataforma de Adopción de Mascotas",
         "description": "Una aplicación web para la adopción de mascotas, con un panel administrativo y formulario de adopcion",
         "lenguajes": ["React JS", "Tailwind", "FastAPI", "Python"],
@@ -66,17 +76,7 @@ export const Body = () => {
         "type": "app"
         
     },
-    {
-        "name": "💡 Skateboard - asociación de skate ",
-        "description": "Un sitio pensado para visibilizar el trabajo de la comunidad, sumar socios y hacer crecer el deporte local.",
-        "lenguajes": ["React", "Tailwind"],
-        "img": "proyectos/skate.png",
-        "link": "https://asociacionskate.netlify.app",
-        "link_repo": "https://github.com/matiasDev4/Asociaci-n-skate",
-        "active": true,
-        "type": "web"
-        
-    }]
+]
     return (
         <section className="my-10 grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 2xl:grid-cols-3 gap-x-5 gap-y-5 lg:mx-10 md:mx-16 xl:mx-28 place-items-center
         md:max-w-[1200px]">
