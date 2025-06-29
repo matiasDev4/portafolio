@@ -6,7 +6,7 @@ export const Body = () => {
         "name": "💡 Skateboard - asociación de skate ",
         "description": "Un sitio pensado para visibilizar el trabajo de la comunidad, sumar socios y hacer crecer el deporte local.",
         "lenguajes": ["React", "Tailwind"],
-        "img": "proyectos/skate.png",
+        "img": "proyectos/skate.PNG",
         "link": "https://asociacionskate.netlify.app",
         "link_repo": "https://github.com/matiasDev4/Asociaci-n-skate",
         "active": true,
