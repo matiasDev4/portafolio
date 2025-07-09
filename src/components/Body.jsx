@@ -106,7 +106,7 @@ export const Body = () => {
                                 )}
                             </div>
                         </div>
-                        <div className="my-2 flex flex-row gap-x-2 lg:gap-x-4 text-sm lg:text-md">
+                        <div className="my-2 flex flex-row gap-x-2 lg:gap-x-4 text-sm lg:text-md font-semibold">
                             <a href={index.link} target="_blank" rel="noreferrer"
                             className={`flex flex-row items-center gap-x-2
                             text-white py-2 px-5 rounded-[10px] hover:cursor-pointer
