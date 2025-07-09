@@ -55,7 +55,7 @@ export const Body = () => {
         
     },
     {
-        "name": "💡 ConvertJPG - convertidor de DICOM a JPG ",
+        "name": "💡 Convertidor de DICOM a JPG",
         "description": "Esta aplicación esta enfocada convertir varios archivos DICOM a JPG de manera simple y rapida",
         "lenguajes": ["Flet", "Python"],
         "img": "proyectos/convert.jpg",
@@ -78,7 +78,9 @@ export const Body = () => {
     },
 ]
     return (
-        <section className="my-10 grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 2xl:grid-cols-3 gap-x-5 gap-y-5 lg:mx-10 md:mx-16 xl:mx-28 place-items-center
+        <section className="w-full my-5">
+            <h1 className="text-4xl text-center text-white font-bold">Mis proyectos</h1>
+            <div className="my-10 grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 2xl:grid-cols-3 gap-x-5 gap-y-5 lg:mx-10 md:mx-16 xl:mx-28 place-items-center
         md:max-w-[1200px]">
             {
                 cards.map(index =>
@@ -86,25 +88,25 @@ export const Body = () => {
                 hover:scale-[1.02] hover:cursor-pointer hover:shadow-[0px_20px_20px_black] transition-all duration-300" key={index.name}> 
                     <div className="p-2 relative hover:[&>div]">
                         <img src={index.img} alt="" className="rounded-xl" />
-                        <div className="bg-black/20 text-black font-bold h-12 lg:h-14 px-2 py-2
-                        text-md lg:text-md rounded-t-xl my-2 flex items-center">
+                        <div className="bg-black/20 text-black font-bold h-12 lg:h-15 px-2 py-2
+                        text-sm lg:text-sm rounded-t-xl my-2 flex items-center">
                             <h1>{index.name}</h1>
                         </div>
                         <span className={`absolute top-5 left-4 ${index.active ? "bg-green-500/60" : ""} rounded-lg px-2 py-1
                         text-[14px] font-semibold`}>{index.active ? "Online ✔️ " : ""}</span>
                     </div>
                     <div className="flex flex-col items-center p-2 justify-between gap-y-5">
-                        <p className="px-2 text-center text-lg lg:text-xl text-gray-800">{index.description}</p>
+                        <p className="px-2 text-center text-lg lg:text-lg text-gray-800">{index.description}</p>
                         <div className="flex flex-col gap-y-4">
-                            <h2 className="font-semibold">Lenguajes que utilize 👇</h2>
-                            <div className="grid grid-cols-3 lg:grid-cols-4 gap-2 place-items-center">
+                            <h2 className="font-semibold text-center">Lenguajes que utilize 👇</h2>
+                            <div className="columns-3 lg:columns-4 gap-2 place-items-center">
                                 {index.lenguajes.map(lenguaje => 
                                     <span
-                                    className="bg-gray-300/80 px-3 py-1 rounded-lg flex items-center text-[13px] font-semibold">{lenguaje}</span>
+                                    className="bg-gray-300/80 px-3 py-1 rounded-lg flex items-center text-[13px] font-semibold mb-2 break-inside-avoid ">{lenguaje}</span>
                                 )}
                             </div>
                         </div>
-                        <div className="my-2 flex flex-row gap-x-2 lg:gap-x-4">
+                        <div className="my-2 flex flex-row gap-x-2 lg:gap-x-4 text-sm lg:text-md">
                             <a href={index.link} target="_blank" rel="noreferrer"
                             className={`flex flex-row items-center gap-x-2
                             text-white py-2 px-5 rounded-[10px] hover:cursor-pointer
@@ -123,6 +125,7 @@ export const Body = () => {
                 </div>
                 )
             }
+            </div>
         </section>
     )
 }
