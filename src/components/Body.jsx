@@ -78,10 +78,10 @@ export const Body = () => {
     },
 ]
     return (
-        <section className="w-full my-5">
-            <h1 className="text-4xl text-center text-white font-bold">Mis proyectos</h1>
+        <section className="w-full my-5 flex flex-col items-center">
+            <h1 className="text-5xl text-center text-white font-bold">Mis proyectos</h1>
             <div className="my-10 grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 2xl:grid-cols-3 gap-x-5 gap-y-5 lg:mx-10 md:mx-16 xl:mx-28 place-items-center
-        md:max-w-[1200px]">
+        md:max-w-[1200px] ">
             {
                 cards.map(index =>
                 <div className="bg-white m-2 h-auto rounded-xl shadow-[0px_0px_20px_black] lg:max-w-[400px]
