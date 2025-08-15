@@ -12,7 +12,7 @@ export const Sobremi  = () =>{
                         </div>
                         
                         <p 
-                        className="text-sm font-medium md:text-xl leading-relaxed"
+                        className="text-md font-medium md:text-xl leading-relaxed"
                         >
                             Soy desarrollador full-stack y cuento con 3 años de experiencia como desarrollador. <br />
                             Mirá mis proyectos recientes y descubrí lo que puedo aportar. 👇
