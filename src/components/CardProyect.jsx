@@ -24,12 +24,12 @@ export const CardProyect = ({ name, description, lenguajes, image, download, git
                     className="flex items-center gap-x-4"
                     >
                         <a href="http://"
-                        className={`bg-[#141414] p-2 rounded-lg text-lg
+                        className={`bg-[#141414] p-2 rounded-lg text-xl
                         border-1 border-transparent hover:border-[#3a3a3a] transition-all duration-200
                         ${active ? 'block' : 'hidden'}`}
                         >{type === 'Web' ? <FaLink /> : <FaDownload />} </a>
                         <a href="http://"
-                        className="bg-[#141414] p-2 rounded-lg text-lg
+                        className="bg-[#141414] p-2 rounded-lg text-xl
                         border-1 border-transparent hover:border-[#3a3a3a] transition-all duration-200"
                         ><FaGithub /></a>
                     </div>
