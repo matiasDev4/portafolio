@@ -35,7 +35,7 @@ export const CardProyect = ({ name, description, lenguajes, image, download, git
                     </div>
                 </div>
                 <h1
-                className="text-md py-4 md:text-lg"
+                className="text-lg py-4 md:text-lg"
                 >{name}</h1>
             </div>
             <div className="px-2 py-2 bg-[#7c7a7a52] rounded-lg">
