@@ -35,7 +35,7 @@ export const CardProyect = ({ name, description, lenguajes, image, download, git
                     </div>
                 </div>
                 <h1
-                className="text-md pt-2 md:text-lg"
+                className="text-md py-4 md:text-lg"
                 >{name}</h1>
             </div>
             <div className="px-2 py-2 bg-[#7c7a7a52] rounded-lg">
@@ -43,7 +43,7 @@ export const CardProyect = ({ name, description, lenguajes, image, download, git
                     className="rounded-lg object-cover"
                 />
             </div>
-            <div className="px-2 py-4 flex-1 text-left text-[#c4c4c4] font-semibold">
+            <div className="px-2 py-6 flex-1 text-left text-[#c4c4c4] font-semibold">
                 <p>{description}</p>
             </div>
             <div className="p-2 flex flex-wrap gap-2">
