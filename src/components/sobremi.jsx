@@ -8,13 +8,13 @@ export const Sobremi  = () =>{
                             <h2 className="text-2xl font-bold my-1 md:text-3xl">Hola!👋 me llamo</h2> 
                             <h1 
                             className="text-3xl font-bold my-2 md:text-4xl text-amber-400"
-                            >Matias Ezequiel Alvarez</h1>
+                            >Matias Alvarez</h1>
                         </div>
                         
                         <p 
-                        className="text-lg font-medium md:text-xl leading-relaxed"
+                        className="text-sm font-medium md:text-xl leading-relaxed"
                         >
-                            Desarrollor full-stack, combinando diseño y código. <br />
+                            Soy desarrollador full-stack y cuento con 3 años de experiencia como desarrollador. <br />
                             Mirá mis proyectos recientes y descubrí lo que puedo aportar. 👇
                         </p>
                     </div>

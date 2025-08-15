@@ -1,0 +1,86 @@
+export const cards = [{
+    "name": "Asocioción de skate",
+    "description": "Un sitio pensado para visibilizar el trabajo de la comunidad, sumar socios y hacer crecer el deporte local.",
+    "lenguajes": ["React", "Tailwind"],
+    "img": "proyectos/skate.PNG",
+    "link": "https://asociacionskate.netlify.app",
+    "link_repo": "https://github.com/matiasDev4/Asociaci-n-skate",
+    "active": true,
+    "type": "Web"
+
+}, {
+    "name": "Patitas",
+    "description": "Una aplicación web para la adopción de mascotas, con un panel administrativo y formulario de adopcion",
+    "lenguajes": ["React JS", "Tailwind", "FastAPI", "Python"],
+    "img": "proyectos/patitas.PNG",
+    "link": "https://c19-57-n-python-react.vercel.app/",
+    "link_repo": "https://github.com/matiasDev4/C23-65-WEBAPP",
+    "active": true,
+    "type": "Web"
+},
+{
+    "name": "Lolinails",
+    "description": "Una web enfocada en la venta de cursos, con un panel para el administrador.",
+    "lenguajes": ["React JS", "Tailwind", "FastAPI", "Python"],
+    "img": "proyectos/nails.PNG",
+    "link": "",
+    "link_repo": "https://github.com/matiasDev4/lolinails-web",
+    "active": false,
+    "type": "Web"
+},
+{
+    "name": "E-commerce",
+    "description": "Una pagina web para venta de insumos, con fines practicos y demostrativos.",
+    "lenguajes": ["HTML", "CSS", "JavaScript"],
+    "img": "proyectos/prototipo.png",
+    "link": "https://matiasdev4.github.io/prototipo",
+    "link_repo": "https://github.com/matiasDev4/prototipo",
+    "active": true,
+    "type": "Web"
+
+},
+{
+    "name": "KVMYM",
+    "description": "Apliación de escritorio para la gestion de facturas tipo A, el cual mantiene un suguimiento de impuestos y totales.",
+    "lenguajes": ["Python", "Flet"],
+    "img": "proyectos/kiosco.png",
+    "link": "",
+    "link_repo": "https://github.com/matiasDev4/gestor_app",
+    "active": false,
+    "type": "App"
+
+},
+{
+    "name": "Convertidor de DICOM a JPG",
+    "description": "Esta aplicación esta enfocada convertir varios archivos DICOM a JPG de manera simple y rapida",
+    "lenguajes": ["Flet", "Python"],
+    "img": "proyectos/convert.jpg",
+    "link": "",
+    "link_repo": "https://github.com/matiasDev4/ConvertJPG",
+    "active": true,
+    "type": "App"
+
+},
+{
+    "name": "VentasDiarias",
+    "description": "Registra las ventas diarias de un comercio, suma los totales automaticamente y exporta los datos a un Excel.",
+    "lenguajes": ["Flet", "Python"],
+    "img": "proyectos/ventas.png",
+    "link": "https://github.com/matiasDev4/ventas_diarias_app/releases/download/1.0.0/ventas.exe",
+    "link_repo": "https://github.com/matiasDev4/ventas_diarias_app",
+    "active": true,
+    "type": "App"
+
+},
+{
+    "name": "Recordatorio",
+    "description": "Controla el vencimiento de tus productos, ofrece ofertas",
+    "lenguajes": ["Electron", "React", "TypeScript", "Tailwind"],
+    "img": "proyectos/alarm.png",
+    "link": "https://github.com/matiasDev4/ventas_diarias_app/releases/download/1.0.0/ventas.exe",
+    "link_repo": "https://github.com/matiasDev4",
+    "active": false,
+    "type": "App"
+
+},
+]

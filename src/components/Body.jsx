@@ -2,92 +2,7 @@ import { RiExternalLinkFill } from "react-icons/ri";
 import { FaGithub } from "react-icons/fa";
 
 export const Body = () => {
-    const cards = [    {
-        "name": "💡 Skateboard - asociación de skate ",
-        "description": "Un sitio pensado para visibilizar el trabajo de la comunidad, sumar socios y hacer crecer el deporte local.",
-        "lenguajes": ["React", "Tailwind"],
-        "img": "proyectos/skate.PNG",
-        "link": "https://asociacionskate.netlify.app",
-        "link_repo": "https://github.com/matiasDev4/Asociaci-n-skate",
-        "active": true,
-        "type": "web"
-        
-    },{
-        "name": "💡 Patitas - Plataforma de Adopción de Mascotas",
-        "description": "Una aplicación web para la adopción de mascotas, con un panel administrativo y formulario de adopcion",
-        "lenguajes": ["React JS", "Tailwind", "FastAPI", "Python"],
-        "img": "proyectos/patitas.PNG",
-        "link": "https://c19-57-n-python-react.vercel.app/",
-        "link_repo":"https://github.com/matiasDev4/C23-65-WEBAPP",
-        "active": true,
-        "type": "web"
-    },
-    {
-        "name": "🛒 Lolinail - Cursos online",
-        "description": "Una web enfocada en la venta de cursos, con un panel para el administrador.",
-        "lenguajes": ["React JS", "Tailwind", "FastAPI", "Python"],
-        "img": "proyectos/nails.PNG",
-        "link":"",
-        "link_repo": "https://github.com/matiasDev4/lolinails-web",
-        "active": false,
-        "type": "web"
-    },
-    {
-        "name": "💡 E-commerce - Venta de insumos informáticos ",
-        "description": "Una pagina web para venta de insumos, con fines practicos y demostrativos.",
-        "lenguajes": ["HTML", "CSS", "JavaScript"],
-        "img": "proyectos/prototipo.png",
-        "link": "https://matiasdev4.github.io/prototipo",
-        "link_repo": "https://github.com/matiasDev4/prototipo",
-        "active": true,
-        "type": "web"
-        
-    },
-    {
-        "name": "📄 KVMYM - Gestor de facturas ",
-        "description": "Apliación de escritorio para la gestion de facturas tipo A, el cual mantiene un suguimiento de impuestos y totales.",
-        "lenguajes": ["Python", "Flet"],
-        "img": "proyectos/kiosco.png",
-        "link": "",
-        "link_repo": "https://github.com/matiasDev4/gestor_app",
-        "active": false,
-        "type": "app"
-        
-    },
-    {
-        "name": "💡 Convertidor de DICOM a JPG",
-        "description": "Esta aplicación esta enfocada convertir varios archivos DICOM a JPG de manera simple y rapida",
-        "lenguajes": ["Flet", "Python"],
-        "img": "proyectos/convert.jpg",
-        "link": "",
-        "link_repo": "https://github.com/matiasDev4/ConvertJPG",
-        "active": true,
-        "type": "app"
-        
-    },
-    {
-        "name": "💡 VentasDiarias - registra tus ventas diarias ",
-        "description": "Registra las ventas diarias de un comercio, suma los totales automaticamente y exporta los datos a un Excel.",
-        "lenguajes": ["Flet", "Python"],
-        "img": "proyectos/ventas.png",
-        "link": "https://github.com/matiasDev4/ventas_diarias_app/releases/download/1.0.0/ventas.exe",
-        "link_repo": "https://github.com/matiasDev4/ventas_diarias_app",
-        "active": true,
-        "type": "app"
-        
-    },
-    {
-        "name": "💡 Recordatorio - Gestiona tus vencimientos",
-        "description": "Controla el vencimiento de tus productos, ofrece ofertas",
-        "lenguajes": ["Electron", "React", "TypeScript", "Tailwind"],
-        "img": "proyectos/alarm.png",
-        "link": "https://github.com/matiasDev4/ventas_diarias_app/releases/download/1.0.0/ventas.exe",
-        "link_repo": "https://github.com/matiasDev4",
-        "active": false,
-        "type": "app"
-        
-    },
-]
+
     return (
         <section className="w-full my-5 flex flex-col items-center">
             <h1 className="text-5xl text-center text-white font-bold">Mis proyectos</h1>
@@ -109,10 +24,10 @@ export const Body = () => {
                         text-[14px] font-semibold`}>{index.active ? "Online ✔️ " : ""}</span>
                     </div>
                     <div className="flex flex-col items-center p-2 justify-between gap-y-5">
-                        <p className="px-2 text-center text-lg lg:text-lg text-white/80">{index.description}</p>
+                        <p className="px-2 text-center text-lg lg:text-lg text-white/90">{index.description}</p>
                         <div className="flex flex-col gap-y-4">
                             <h2 className="font-semibold text-center">Lenguajes que utilize 👇</h2>
-                            <div className="columns-3 lg:columns-4 gap-2 place-items-center">
+                            <div className="grid grid-cols-2 gap-2 place-items-center lg:grid-cols-4">
                                 {index.lenguajes.map(lenguaje => 
                                     <span
                                     className="bg-gray-300/80 px-3 py-1 rounded-lg flex items-center text-[0.9rem] mb-2 break-inside-avoid 
