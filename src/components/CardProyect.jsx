@@ -7,7 +7,7 @@ export const CardProyect = ({ name, description, lenguajes, image, download, git
     return (
         <article
             className="
-        w-[300px] h-full md:w-[400px] bg-[#1f1f1f] rounded-lg shadow-[0px_0px_10px_black]/50
+        w-[400px] h-full md:w-[400px] bg-[#1f1f1f] rounded-lg shadow-[0px_0px_10px_black]/50
         px-2 py-2 hover:border-[#7a7a7a] border-1 transition-colors duration-200
         "
         >
