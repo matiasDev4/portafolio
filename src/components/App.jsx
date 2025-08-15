@@ -13,7 +13,6 @@ export const  App = () => {
         <div className="flex justify-center">
             <Body />
         </div>
-        <Sobremi2 />
         <Footer />
         </>
     )
