@@ -7,7 +7,7 @@ export const CardProyect = ({ name, description, lenguajes, image, download, git
     return (
         <article
             className="
-        w-[300px] h-full md:w-[400px] bg-[#1f1f1f] rounded-lg shadow-[0px_0px_10px_black]/50
+        w-[400px] h-full md:w-[400px] bg-[#1f1f1f] rounded-lg shadow-[0px_0px_10px_black]/50
         px-2 py-2 hover:border-[#7a7a7a] border-1 transition-colors duration-200
         "
         >
@@ -23,18 +23,19 @@ export const CardProyect = ({ name, description, lenguajes, image, download, git
                     <div
                     className="flex items-center gap-x-4"
                     >
-                        <a href="http://"
-                        className="bg-[#141414] p-2 rounded-lg text-md lg:text-lg
-                        border-1 border-transparent hover:border-[#3a3a3a] transition-all duration-200"
+                        <a href={download}
+                        className={`bg-[#141414] p-2 rounded-lg text-xl
+                        border-1 border-transparent hover:border-[#3a3a3a] transition-all duration-200
+                        ${active ? 'block' : 'hidden'}`}
                         >{type === 'Web' ? <FaLink /> : <FaDownload />} </a>
-                        <a href="http://"
-                        className="bg-[#141414] p-2 rounded-lg text-md lg:text-lg
+                        <a href={github}
+                        className="bg-[#141414] p-2 rounded-lg text-xl
                         border-1 border-transparent hover:border-[#3a3a3a] transition-all duration-200"
                         ><FaGithub /></a>
                     </div>
                 </div>
                 <h1
-                className="text-md pt-2 md:text-lg"
+                className="text-lg py-4 md:text-lg"
                 >{name}</h1>
             </div>
             <div className="px-2 py-2 bg-[#7c7a7a52] rounded-lg">
@@ -42,7 +43,7 @@ export const CardProyect = ({ name, description, lenguajes, image, download, git
                     className="rounded-lg object-cover"
                 />
             </div>
-            <div className="px-2 py-4 flex-1 text-left text-[#c4c4c4] font-semibold">
+            <div className="px-2 py-6 flex-1 text-left text-[#CFCFCF] font-semibold">
                 <p>{description}</p>
             </div>
             <div className="p-2 flex flex-wrap gap-2">

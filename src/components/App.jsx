@@ -13,7 +13,7 @@ export const  App = () => {
         <Header />
         <Sobremi />
         <div 
-        className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-5 place-items-center px-2 items-start auto-rows-fr">
+        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-5 gap-x-2 md:gap-x-20 lg:gap-x-20 place-items-center px-2 items-start auto-rows-fr md:max-w-[1200px] mx-auto">
             {cards.map(item => 
                 <CardProyect 
                 key={item.name}
