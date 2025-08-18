@@ -31,7 +31,7 @@ export const Sobremi = () => {
                         )}
                     </div>
                 </div>
-                <div className="w-50 h-50 lg:w-90 lg:h-100 overflow-hidden rounded-2xl">
+                <div className="w-50 h-50 lg:w-90 lg:h-full overflow-hidden rounded-2xl">
                     <img src="images/yo.png" alt="yo" 
                     className="w-full h-full"
                     />
