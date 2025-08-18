@@ -5,7 +5,7 @@ export const Sobremi = () => {
         <>
             <section className="w-full h-auto my-8 max-w-screen-xl mx-auto
             flex flex-col-reverse lg:flex-row lg:justify-around items-center lg:items-start gap-y-5">
-                <div className="max-w-md px-4 border">
+                <div className="max-w-md px-4">
                     <div className="text-white md:w-100">
                         <h4 className="text-lg font-bold">Hola, soy</h4>
                         <h1 className="text-3xl py-1 font-extrabold
@@ -16,7 +16,7 @@ export const Sobremi = () => {
                         interfaces modernas.</p>
                     </div>
                     <h1 className="text-amber-300 font-semibold text-lg py-4 px-1 whitespace-nowrap inline-flex">Stack Tecnológico</h1>
-                    <div className="grid grid-cols-3 lg:grid-cols-5 lg:place-items-left lg:mx-0 mx-auto w-[300px] items-start gap-5 lg:w-[600px] my-2">
+                    <div className="grid grid-cols-3 lg:grid-cols-5 lg:place-items-left lg:mx-0 mx-auto w-[300px] items-start gap-5 lg:w-full my-2">
                         {lenguagesImages.map(item=>
                             <div
                             className="bg-white/10 backdrop-blur-3xl flex flex-col gap-y-1 items-center justify-center py-2
