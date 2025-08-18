@@ -3,15 +3,15 @@ import { lenguagesImages } from "../utils/proyects"
 export const Sobremi = () => {
     return (
         <>
-            <section className="w-70 h-auto my-8 lg:w-[1200px] mx-auto
-            flex flex-col-reverse lg:flex-row lg:justify-around items-center lg:items-start gap-y-5 px-4">
-                <div className="w-auto px-2">
+            <section className="w-full h-auto my-8 max-w-screen-xl mx-auto
+            flex flex-col-reverse lg:flex-row lg:justify-around items-center lg:items-start gap-y-5">
+                <div className="w-full px-4">
                     <div className="text-white">
                         <h4 className="text-lg font-bold">Hola, soy</h4>
                         <h1 className="text-3xl py-1 font-extrabold
                         text-amber-400
                         whitespace-nowrap inline-block">Matias Alvarez 👋</h1>
-                        <p className="leading-relaxed text-md lg:text-lg pt-2 text-[#e0e0e0] font-semibold lg:w-150 w-auto"
+                        <p className="leading-relaxed text-md lg:text-lg pt-2 text-[#e0e0e0] font-semibold w-full"
                         >Soy desarrollador de software con experiencia en aplicaciones de escritorio y desarrollo web. Me especializo en crear soluciones eficientes e
                         interfaces modernas.</p>
                     </div>
