@@ -16,7 +16,7 @@ export const Sobremi = () => {
                         interfaces modernas.</p>
                     </div>
                     <h1 className="text-amber-300 font-semibold text-lg py-4 px-1 whitespace-nowrap inline-flex">Stack Tecnológico</h1>
-                    <div className="grid grid-cols-4 lg:grid-cols-5 w-[400px] items-start gap-5 lg:w-[600px] my-2 justify-center mx-auto">
+                    <div className="grid grid-cols-3 lg:grid-cols-5 w-[300px] items-start gap-5 lg:w-[600px] my-2 justify-center mx-auto">
                         {lenguagesImages.map(item=>
                             <div
                             className="bg-white/10 backdrop-blur-3xl flex flex-col gap-y-1 items-center justify-center py-2
