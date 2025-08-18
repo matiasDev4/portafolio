@@ -8,15 +8,6 @@ export const cards = [{
     "active": true,
     "type": "Web"
 
-}, {
-    "name": "Patitas",
-    "description": "Una aplicación web para la adopción de mascotas, con un panel administrativo y formulario de adopcion",
-    "lenguajes": ["React JS", "Tailwind", "FastAPI", "Python"],
-    "img": "proyectos/patitas.PNG",
-    "link": "https://c19-57-n-python-react.vercel.app/",
-    "link_repo": "https://github.com/matiasDev4/C23-65-WEBAPP",
-    "active": true,
-    "type": "Web"
 },
 {
     "name": "Lolinails",

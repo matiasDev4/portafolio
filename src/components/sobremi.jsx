@@ -20,13 +20,13 @@ export const Sobremi = () => {
                         {lenguagesImages.map(item=>
                             <div
                             className="bg-white/10 backdrop-blur-3xl flex flex-col gap-y-1 items-center justify-center py-2
-                            rounded-lg w-20 ring-1 ring-white/10"
+                            rounded-lg w-20 ring-2 ring-white/20 shadow-[0px_0px_10px_black]/40 hover:bg-white/20 transition-colors duration-300"
                             key={item.name}
                             >
                                 <img src={item.image} alt={item.name} 
                                 className="w-8 h-8"
                                 />
-                                <span className="whitespace-nowrap text-sm font-semibold text-white">{item.name}</span>
+                                <span className="whitespace-nowrap text-sm font-semibold text-[#c4c4c4]">{item.name}</span>
                             </div>
                         )}
                     </div>
