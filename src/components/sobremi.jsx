@@ -11,7 +11,7 @@ export const Sobremi = () => {
                         <h1 className="text-3xl py-1 font-extrabold
                         text-amber-400
                         whitespace-nowrap inline-block">Matias Alvarez 👋</h1>
-                        <p className="leading-relaxed text-md lg:text-lg pt-2 text-[#e0e0e0] font-semibold w-full"
+                        <p className="leading-relaxed text-md lg:text-lg pt-2 text-[#e0e0e0] font-semibold w-full lg:w-100"
                         >Soy desarrollador de software con experiencia en aplicaciones de escritorio y desarrollo web. Me especializo en crear soluciones eficientes e
                         interfaces modernas.</p>
                     </div>
