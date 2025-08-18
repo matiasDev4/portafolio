@@ -4,7 +4,7 @@ export const Sobremi = () => {
     return (
         <>
             <section className="w-70 h-auto my-8 lg:w-[1200px] mx-auto
-            flex flex-col-reverse lg:flex-row lg:justify-around items-center lg:items-start gap-y-5">
+            flex flex-col-reverse lg:flex-row lg:justify-around items-center lg:items-start gap-y-5 px-4">
                 <div className="w-auto px-2">
                     <div className="text-white">
                         <h4 className="text-lg font-bold">Hola, soy</h4>
