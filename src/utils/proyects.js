@@ -84,3 +84,35 @@ export const cards = [{
 
 },
 ]
+
+export const lenguagesImages = [{
+    'name':'React',
+    'image':'lenguajes/react.svg'
+},{
+    'name':'Electron',
+    'image':'lenguajes/electron.svg'
+},{
+    'name':'JavaScript',
+    'image':'lenguajes/javascript.svg'
+},{
+    'name':'Tailwind',
+    'image':'lenguajes/tailwindcss.svg'
+},{
+    'name':'TypeScript',
+    'image':'lenguajes/typescript.svg'
+},{
+    'name':'CSS',
+    'image':'lenguajes/css.svg'
+},{
+    'name':'HTML',
+    'image':'lenguajes/html.svg'
+},{
+    'name':'Python',
+    'image':'lenguajes/python.svg'
+},{
+    'name':'FastAPI',
+    'image':'lenguajes/fastAPI.svg'
+},{
+    'name':'Postgres',
+    'image':'lenguajes/potsgres.svg'
+},]

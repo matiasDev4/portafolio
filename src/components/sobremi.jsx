@@ -1,28 +1,40 @@
-export const Sobremi  = () =>{
+import { lenguagesImages } from "../utils/proyects"
+
+export const Sobremi = () => {
     return (
         <>
-            <section className="w-full my-[4rem]">
-                <div className="text-white flex flex-col-reverse lg:flex-row items-center lg:justify-center lg:gap-x-30 gap-y-10">
-                    <div className="w-80 text-left px-4 lg:w-100 lg:p-0">
-                        <div className="my-5 ">
-                            <h2 className="text-2xl font-bold my-1 md:text-3xl">Hola!👋 me llamo</h2> 
-                            <h1 
-                            className="text-3xl font-bold my-2 md:text-4xl text-amber-400"
-                            >Matias Alvarez</h1>
-                        </div>
-                        
-                        <p 
-                        className="text-md font-medium md:text-xl leading-relaxed"
-                        >
-                            Soy desarrollador full-stack y cuento con 3 años de experiencia como desarrollador. <br />
-                            Mirá mis proyectos recientes y descubrí lo que puedo aportar. 👇
-                        </p>
+            <section className="w-100 h-auto my-8 lg:w-[1200px] mx-auto
+            flex flex-col-reverse lg:flex-row lg:justify-around items-center lg:items-start gap-y-5">
+                <div className="w-100">
+                    <div className="text-white">
+                        <h4 className="text-lg font-bold">Hola, soy</h4>
+                        <h1 className="text-3xl py-1 font-extrabold
+                        text-amber-400
+                        whitespace-nowrap inline-block">Matias Alvarez 👋</h1>
+                        <p className="leading-relaxed text-md pt-2 text-[#e0e0e0] font-semibold w-auto"
+                        >Soy desarrollador de software con experiencia en aplicaciones de escritorio y desarrollo web. Me especializo en crear soluciones eficientes e
+                        interfaces modernas.</p>
                     </div>
-                    <div className="w-60 h-60 overflow-hidden rounded-full shadow-[0px_0px_20px_black]">
-                        <img src="/images/yo.png" alt="profile" 
-                        className="w-full h-full object-cover"
-                        />
+                    <h1 className="text-amber-300 font-semibold text-lg py-4 px-1 whitespace-nowrap inline-flex">Stack Tecnológico</h1>
+                    <div className="grid grid-cols-4 lg:grid-cols-5 w-[400px] items-start gap-5 lg:w-[500px] my-2 justify-center mx-auto">
+                        {lenguagesImages.map(item=>
+                            <div
+                            className="bg-white/10 backdrop-blur-3xl flex flex-col gap-y-1 items-center justify-center py-2
+                            rounded-lg w-20 ring-1 ring-white/10"
+                            key={item.name}
+                            >
+                                <img src={item.image} alt={item.name} 
+                                className="w-8 h-8"
+                                />
+                                <span className="whitespace-nowrap text-sm font-semibold text-white">{item.name}</span>
+                            </div>
+                        )}
                     </div>
+                </div>
+                <div className="w-50 h-50 lg:w-80 lg:h-full overflow-hidden rounded-2xl">
+                    <img src="images/yo.png" alt="yo" 
+                    className="w-full h-full"
+                    />
                 </div>
             </section>
         </>
