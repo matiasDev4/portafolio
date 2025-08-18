@@ -11,10 +11,10 @@ export const App = () => {
         <>
             <Header />
             <Sobremi />
-            <div className="md:max-w-[750px] lg:max-w-[1100px] mx-auto">
+            <div className="md:max-w-[750px] lg:max-w-[1100px] md:mx-auto w-full">
                 <h1 className="text-amber-300 font-semibold py-10 px-2 text-3xl text-center">Proyectos</h1>
                 <div
-                    className="grid grid-cols-[repeat(auto-fit,minmax(400px,1fr))] place-items-center  gap-10 gap-x-2 items-start  px-5">
+                    className="grid grid-cols-[repeat(auto-fit,minmax(400px,1fr))] place-items-center gap-10 items-start">
                     {cards.map(item =>
                         <CardProyect
                             key={item.name}
