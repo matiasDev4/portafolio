@@ -11,7 +11,7 @@ export const App = () => {
         <>
             <Header />
             <Sobremi />
-            <div className="w-full max-w-screen-xl px-5 mx-auto">
+            <div className="w-full max-w-screen-xl mx-auto">
                 <h1 className="text-amber-300 font-semibold py-10 px-2 text-3xl text-center">Proyectos</h1>
                 <div
                     className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] place-items-center gap-8 items-start">
