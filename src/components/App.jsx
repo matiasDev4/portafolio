@@ -14,7 +14,7 @@ export const App = () => {
             <div className="md:max-w-[750px] lg:max-w-[1100px] mx-auto">
                 <h1 className="text-amber-300 font-semibold py-10 px-2 text-3xl text-center">Proyectos</h1>
                 <div
-                    className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-5 gap-x-2 md:gap-x-30 lg:gap-x-50 place-items-center items-start auto-rows-fr px-5">
+                    className="grid grid-cols-[repeat(auto-fit, minmax(400px, 1fr)] justify-items-center  gap-10 gap-x-2 items-start  px-5">
                     {cards.map(item =>
                         <CardProyect
                             key={item.name}
