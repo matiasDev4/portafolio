@@ -20,8 +20,8 @@ export const cards = [{
     "type": "Web"
 },
 {
-    "name": "E-commerce",
-    "description": "Una pagina web para venta de insumos, con fines practicos y demostrativos.",
+    "name": "Tienda de informatica (demo)",
+    "description": "Un e-commerce sencillo, el cual incluye un catálogo dinamico, filtros y un carrito de compras basicos. ",
     "lenguajes": ["HTML", "CSS", "JavaScript"],
     "img": "proyectos/prototipo.png",
     "link": "https://matiasdev4.github.io/prototipo",
