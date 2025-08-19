@@ -11,7 +11,7 @@ export const cards = [{
 },
 {
     "name": "Lolinails",
-    "description": "Una web enfocada en la venta de cursos, con un panel para el administrador simple + una API propia con autenticación y JWT",
+    "description": "Plataforma web para la venta de cursos online, con un panel de administrador intuitivo y una API propia con autenticación mediante JWT",
     "lenguajes": ["React JS", "Tailwind", "FastAPI", "Python"],
     "img": "proyectos/nails.PNG",
     "link": "",
@@ -65,7 +65,7 @@ export const cards = [{
 },
 {
     "name": "Recordatorio",
-    "description": "Controla el vencimiento de tus productos, frontend moderno + un backend con NodeJS propio de electron para manipular base de datos sqlite3",
+    "description": "Aplicación de escritorio para gestionar y controlar el vencimiento de productos. Desarrollada con un frontend moderno y un backend integrado en Node.js/Electron, que utiliza sqlite3 para el almacenamiento de datos",
     "lenguajes": ["Electron", "React", "TypeScript", "Tailwind"],
     "img": "proyectos/alarm.png",
     "link": "https://github.com/matiasDev4/ventas_diarias_app/releases/download/1.0.0/ventas.exe",
