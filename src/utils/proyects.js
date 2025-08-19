@@ -11,7 +11,7 @@ export const cards = [{
 },
 {
     "name": "Lolinails",
-    "description": "Una web enfocada en la venta de cursos, con un panel para el administrador.",
+    "description": "Una web enfocada en la venta de cursos, con un panel para el administrador simple + una API propia con autenticación y JWT",
     "lenguajes": ["React JS", "Tailwind", "FastAPI", "Python"],
     "img": "proyectos/nails.PNG",
     "link": "",
@@ -43,7 +43,7 @@ export const cards = [{
 },
 {
     "name": "Convertidor de DICOM a JPG",
-    "description": "Esta aplicación esta enfocada convertir varios archivos DICOM a JPG de manera simple y rapida",
+    "description": "Esta aplicación esta enfocada convertir varios archivos DICOM a JPG de manera simple y rapida,",
     "lenguajes": ["Flet", "Python"],
     "img": "proyectos/convert.jpg",
     "link": "",
@@ -65,7 +65,7 @@ export const cards = [{
 },
 {
     "name": "Recordatorio",
-    "description": "Controla el vencimiento de tus productos, ofrece ofertas",
+    "description": "Controla el vencimiento de tus productos, frontend moderno + un backend con NodeJS propio de electron para manipular base de datos sqlite3",
     "lenguajes": ["Electron", "React", "TypeScript", "Tailwind"],
     "img": "proyectos/alarm.png",
     "link": "https://github.com/matiasDev4/ventas_diarias_app/releases/download/1.0.0/ventas.exe",
