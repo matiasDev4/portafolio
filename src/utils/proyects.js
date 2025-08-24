@@ -8,6 +8,16 @@ export const cards = [{
     "active": true,
     "type": "Web"
 
+},{
+    "name": "Borderlands scraper ",
+    "description": "Este script está desarrollado para scrapear y canjear códigos SHIFT de Borderlands automáticamente; cuenta con un menú interactivo por consola y posibilidad de configurar parámetros básicos para su funcionamiento. Podes chequear el readme para mas información en el respositorio",
+    "lenguajes": ["Python"],
+    "img": "proyectos/borderlands.png",
+    "link": "https://asociacionskate.netlify.app",
+    "link_repo": "https://github.com/matiasDev4/borderlands-shift-scraper",
+    "active": false,
+    "type": "app"
+
 },
 {
     "name": "Lolinails",
