@@ -21,7 +21,7 @@ export const cards = [{
 },
 {
     "name": "Lolinails",
-    "description": "Una web enfocada en la venta de cursos, con un panel para el administrador.",
+    "description": "Plataforma web para la venta de cursos online, con un panel de administrador intuitivo y una API propia con autenticación mediante JWT",
     "lenguajes": ["React JS", "Tailwind", "FastAPI", "Python"],
     "img": "proyectos/nails.PNG",
     "link": "",
@@ -30,8 +30,8 @@ export const cards = [{
     "type": "Web"
 },
 {
-    "name": "E-commerce",
-    "description": "Una pagina web para venta de insumos, con fines practicos y demostrativos.",
+    "name": "Tienda de informatica (demo)",
+    "description": "Un e-commerce sencillo, el cual incluye un catálogo dinamico, filtros y un carrito de compras basicos. ",
     "lenguajes": ["HTML", "CSS", "JavaScript"],
     "img": "proyectos/prototipo.png",
     "link": "https://matiasdev4.github.io/prototipo",
@@ -53,7 +53,7 @@ export const cards = [{
 },
 {
     "name": "Convertidor de DICOM a JPG",
-    "description": "Esta aplicación esta enfocada convertir varios archivos DICOM a JPG de manera simple y rapida",
+    "description": "Esta aplicación esta enfocada convertir varios archivos DICOM a JPG de manera simple y rapida,",
     "lenguajes": ["Flet", "Python"],
     "img": "proyectos/convert.jpg",
     "link": "",
@@ -75,7 +75,7 @@ export const cards = [{
 },
 {
     "name": "Recordatorio",
-    "description": "Controla el vencimiento de tus productos, ofrece ofertas",
+    "description": "Aplicación de escritorio para gestionar y controlar el vencimiento de productos. Desarrollada con un frontend moderno y un backend integrado en Node.js/Electron, que utiliza sqlite3 para el almacenamiento de datos",
     "lenguajes": ["Electron", "React", "TypeScript", "Tailwind"],
     "img": "proyectos/alarm.png",
     "link": "https://github.com/matiasDev4/ventas_diarias_app/releases/download/1.0.0/ventas.exe",
