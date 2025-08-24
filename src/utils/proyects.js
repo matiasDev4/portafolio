@@ -10,7 +10,7 @@ export const cards = [{
 
 },{
     "name": "Borderlands scraper ",
-    "description": "Este script está desarrollado para scrapear y canjear códigos SHIFT de Borderlands automáticamente; cuenta con un menú interactivo por consola y posibilidad de configurar parámetros.",
+    "description": "Este script está desarrollado para scrapear y canjear códigos SHIFT de Borderlands automáticamente",
     "lenguajes": ["Python"],
     "img": "proyectos/borderlands.png",
     "link": "https://asociacionskate.netlify.app",
