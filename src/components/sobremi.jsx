@@ -13,7 +13,7 @@ export const Sobremi = () => {
                         whitespace-nowrap inline-block">Matias Alvarez 👋</h1>
                         <p className="leading-relaxed text-md lg:text-lg pt-2 text-[#e0e0e0] font-semibold w-full "
                         >Me especializo principalmente en el desarrollo backend, pero cuento con solidos conocimientos en frontend,
-                        lo que me permite entregar aplicaciónes completas y eficientes</p>
+                        lo que me permite entregar aplicaciónes completas</p>
                     </div>
                     <h1 className="text-amber-300 font-semibold text-lg py-4 px-1 whitespace-nowrap inline-flex">Stack Tecnológico</h1>
                     <div className="grid grid-cols-3 lg:grid-cols-5 lg:place-items-left lg:mx-0 mx-auto w-[300px] items-start gap-8 lg:w-full my-2">
