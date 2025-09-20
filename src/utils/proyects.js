@@ -1,7 +1,7 @@
 export const cards = [{
     "name": "Asocioción de skate",
     "description": "Un sitio pensado para visibilizar el trabajo de la comunidad, sumar socios y hacer crecer el deporte local.",
-    "lenguajes": ["React", "Tailwind"],
+    "lenguajes": ["ReactJS", "Tailwind"],
     "img": "proyectos/skate.PNG",
     "link": "https://asociacionskate.netlify.app",
     "link_repo": "https://github.com/matiasDev4/Asociaci-n-skate",
@@ -9,33 +9,33 @@ export const cards = [{
     "type": "Web"
 
 },{
-    "name": "Borderlands scraper ",
+    "name": "Borderlands scraper",
     "description": "Este script está desarrollado para scrapear y canjear códigos SHIFT de Borderlands automáticamente",
-    "lenguajes": ["Python"],
+    "lenguajes": ["Python", "Playwright"],
     "img": "proyectos/borderlands.png",
-    "link": "https://asociacionskate.netlify.app",
+    "link": "",
     "link_repo": "https://github.com/matiasDev4/borderlands-shift-scraper",
     "active": false,
-    "type": "app"
+    "type": "App"
 
 },
 {
-    "name": "Lolinails",
-    "description": "Plataforma web para la venta de cursos online, con un panel de administrador intuitivo y una API propia con autenticación mediante JWT",
-    "lenguajes": ["React JS", "Tailwind", "FastAPI", "Python"],
-    "img": "proyectos/nails.PNG",
-    "link": "",
-    "link_repo": "https://github.com/matiasDev4/lolinails-web",
-    "active": false,
-    "type": "Web"
+    "name": "Claper | Scraping y automatización",
+    "description": "Esta es la versión de mi script Borderlands Scraper pero desarrollada en Electron, con un diseño moderno y sencillo para los usuarios, mejorando la experiencia y accesibilidad",
+    "lenguajes": ["ReactJS", "Tailwind", "TypeScript", "Electron", "Playwright"],
+    "img": "proyectos/claper.png",
+    "link": "https://github.com/matiasDev4/Claper/releases/download/1.0/Claper.Setup.1.0.0.exe",
+    "link_repo": "https://github.com/matiasDev4/Claper",
+    "active": true,
+    "type": "App"
 },
 {
-    "name": "Tienda de informatica (demo)",
-    "description": "Un e-commerce sencillo, el cual incluye un catálogo dinamico, filtros y un carrito de compras basicos. ",
-    "lenguajes": ["HTML", "CSS", "JavaScript"],
-    "img": "proyectos/prototipo.png",
-    "link": "https://matiasdev4.github.io/prototipo",
-    "link_repo": "https://github.com/matiasDev4/prototipo",
+    "name": "Strawberry indumentaria",
+    "description": "Catalogo web con panel administrativo, con rutas protegidas mediante roles de usuario y JWT en el backend, almacenamiento con SQLite3",
+    "lenguajes": ["ReactJS", "Tailwind", "TypeScript", "Python", "FastAPI", "SQLite3"],
+    "img": "proyectos/strawberry.png",
+    "link": "https://starwberry.store",
+    "link_repo": "https://github.com/matiasDev4",
     "active": true,
     "type": "Web"
 
