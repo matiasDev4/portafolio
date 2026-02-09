@@ -38,11 +38,15 @@ export const CardProyect = ({ name, description, lenguajes, image, download, git
                     className="text-lg py-4 md:text-lg"
                 >{name}</h1>
             </div>
-            <div className="px-2 py-2 bg-[#7c7a7a52] rounded-lg">
-                <img src={image} alt={name}
-                    className="rounded-lg object-cover"
-                />
-            </div>
+                <div className="px-2 py-2 bg-[#7c7a7a52] rounded-lg">
+                    <div className="w-full aspect-[16/9] flex items-center justify-center">
+                        <img
+                            src={image}
+                            alt={name}
+                            className="max-h-full max-w-full object-contain rounded-lg"
+                        />
+                    </div>
+                </div>
             <div className="flex flex-col justify-between my-2">
                 <div className="px-2 py-6 flex-1 text-left text-[#CFCFCF] font-semibold">
                     <p>{description}</p>
