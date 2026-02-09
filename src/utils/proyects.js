@@ -78,9 +78,19 @@ export const cards = [{
     "description": "Aplicación de escritorio para gestionar y controlar el vencimiento de productos. Desarrollada con un frontend moderno y un backend integrado en Node.js/Electron, que utiliza sqlite3 para el almacenamiento de datos",
     "lenguajes": ["Electron", "React", "TypeScript", "Tailwind"],
     "img": "proyectos/alarm.png",
-    "link": "https://github.com/matiasDev4/ventas_diarias_app/releases/download/1.0.0/ventas.exe",
+    "link": "",
     "link_repo": "https://github.com/matiasDev4",
     "active": false,
+    "type": "App"
+
+},{
+    "name": "MisVentas",
+    "description": "MisVentas es una aplicación de escritorio de uso comercial, orientada a la gestión de ventas diarias y stock, pensada para pequeños y medianos comercios.",
+    "lenguajes": ["Electron", "React", "TypeScript", "Tailwind"],
+    "img": "proyectos/misventas.png",
+    "link": "https://github.com/matiasDev4/MisVentas-app/releases/download/1.0.0/MisVentas.Setup.1.0.0.exe",
+    "link_repo": "https://github.com/matiasDev4",
+    "active": true,
     "type": "App"
 
 },
