@@ -63,17 +63,6 @@ export const cards = [{
 
 },
 {
-    "name": "VentasDiarias",
-    "description": "Registra las ventas diarias de un comercio, suma los totales automaticamente y exporta los datos a un Excel.",
-    "lenguajes": ["Flet", "Python"],
-    "img": "proyectos/ventas.png",
-    "link": "https://github.com/matiasDev4/ventas_diarias_app/releases/download/1.0.0/ventas.exe",
-    "link_repo": "https://github.com/matiasDev4/ventas_diarias_app",
-    "active": true,
-    "type": "App"
-
-},
-{
     "name": "Recordatorio",
     "description": "Aplicación de escritorio para gestionar y controlar el vencimiento de productos. Desarrollada con un frontend moderno y un backend integrado en Node.js/Electron, que utiliza sqlite3 para el almacenamiento de datos",
     "lenguajes": ["Electron", "React", "TypeScript", "Tailwind"],
