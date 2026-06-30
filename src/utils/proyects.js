@@ -30,17 +30,6 @@ export const cards = [{
     "type": "App"
 },
 {
-    "name": "Strawberry indumentaria",
-    "description": "Catalogo web con panel administrativo, con rutas protegidas mediante roles de usuario y JWT en el backend, almacenamiento con SQLite3",
-    "lenguajes": ["ReactJS", "Tailwind", "TypeScript", "Python", "FastAPI", "SQLite3"],
-    "img": "proyectos/strawberry.png",
-    "link": "https://starwberry.store",
-    "link_repo": "https://github.com/matiasDev4",
-    "active": true,
-    "type": "Web"
-
-},
-{
     "name": "KVMYM",
     "description": "Apliación de escritorio para la gestion de facturas tipo A, el cual mantiene un suguimiento de impuestos y totales.",
     "lenguajes": ["Python", "Flet"],
@@ -63,7 +52,7 @@ export const cards = [{
 
 },
 {
-    "name": "Recordatorio",
+    "name": "Memorapp",
     "description": "Aplicación de escritorio para gestionar y controlar el vencimiento de productos. Desarrollada con un frontend moderno y un backend integrado en Node.js/Electron, que utiliza sqlite3 para el almacenamiento de datos",
     "lenguajes": ["Electron", "React", "TypeScript", "Tailwind"],
     "img": "proyectos/alarm.png",
